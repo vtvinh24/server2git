@@ -1,0 +1,37 @@
+{
+  "name": "server2git",
+  "version": "1.0.0",
+  "description": "A hackathon manager",
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node --env-file=.env src/index.js --watch index.js"
+  },
+  "dependencies": {
+    "@octokit/app": "^16.1.0",
+    "@octokit/rest": "^22.0.0",
+    "adm-zip": "^0.5.10",
+    "axios": "^1.12.2",
+    "express": "^5.1.0",
+    "fs-extra": "^11.3.2",
+    "ignore": "^5.2.0",
+    "multer": "^2.0.2",
+    "rotating-file-stream": "^3.2.7",
+    "simple-git": "^3.28.0",
+    "uuid": "^13.0.0",
+    "winston": "^3.17.0"
+  },
+  "imports": {
+    "#routes/*": "./src/api/*",
+    "#data/*": "./src/data/*",
+    "#logic/*": "./src/logic/*",
+    "#middlewares/*": "./src/middlewares/*",
+    "#utils/*": "./src/utils/*"
+  },
+  "devDependencies": {
+    "jest": "^30.1.3"
+  }
+}

@@ -1,0 +1,6 @@
+[
+  { "input": { "a": 1, "b": 2 }, "output": 3 },
+  { "input": { "a": -1, "b": 5 }, "output": 4 },
+  { "input": { "a": 0, "b": 0 }, "output": 0 },
+  { "input": { "a": 100, "b": 200 }, "output": 300 }
+]

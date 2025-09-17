@@ -1,0 +1,16 @@
+{
+  "plugins": [
+    {
+      "file": "dummy-scheduler.js",
+      "enabled": true
+    },
+    {
+      "file": "dummy-stop.js",
+      "enabled": false
+    },
+    {
+      "file": "github-utils.js",
+      "enabled": true
+    }
+  ]
+}
